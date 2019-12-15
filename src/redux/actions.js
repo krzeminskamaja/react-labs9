@@ -8,7 +8,8 @@ export const employeesLoaded = (employees) => {
       employees
     }
   };
-}
+};
+
 export const newEmployeeAdded = (newEmployee) => {
   return {
     type: EMPLOYEE_ADDED,
@@ -16,4 +17,4 @@ export const newEmployeeAdded = (newEmployee) => {
       newEmployee
     }
   };
-} 
+};
